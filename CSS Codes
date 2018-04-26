@@ -1,0 +1,159 @@
+
+.form-left{
+	width:40%; 
+	float:left;
+}
+
+.form-right{
+	width:60%; 
+	float:left;
+}
+
+@media screen and (max-width: 700px) {    /*Media query for aligning the form in correct way for the mobile display.*/ 
+
+.form-left{
+	width:100%; 
+	float:none;
+}
+
+.form-right{
+	width:100%; 
+	float:none;
+}
+
+}
+
+.blockb1 {
+    margin-top: 30px;
+}
+
+.blocka1 {
+    margin-top: 30px;
+
+}
+
+.titles {
+color:#08191c;
+
+
+}
+
+.genderLoc {
+	margin-top: 30px;
+	float:left;
+}
+
+/* .backgrndForMQ {
+
+	background-color: #e8d3c2;
+} */
+/* .body {
+  background-image: url(Fitness.jpg);
+} */
+/* .BackgroundImage {
+	background-image: url (Fitness.jpg);
+} */
+
+body {
+    background-image: url("BG.JPG");
+	background-repeat: repeat-x;
+} 
+
+#tableOne {
+	font-family: Comic Sans MS;
+	color: blue;
+}
+
+#tableTwo {
+	font-family: Comic Sans MS;
+	color: blue;
+}
+
+.ui-header{
+	border-style: none;
+	background-color: #b1b1cd;
+	color: #b30000;
+	font-size: 18px;
+}
+
+.initials {
+	padding-left: 80px;
+	float: left;
+	font-family: Comic Sans MS;
+	font-variant: small-caps;
+	font-size: 40px;
+}
+
+.contactDetails {
+	padding-right: 80px;
+	float: right;
+	font-family: serif;
+	font-size: 20px;	
+}
+
+.mainText {
+	font-family: Comic Sans MS;
+	padding-left: 50px;
+	color: blue;
+	font-size: 25px;
+
+}
+
+.formTable {
+	padding-left: 40px;
+}
+
+.ui-footer{
+	font-size: 12px;
+	color: #172338;
+	background-color: #b1b1cd;
+}
+
+.formTitle{
+	padding-left: 160px;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	color: green;
+}
+
+.fitnesStyle{
+	width:250px;
+	height:250px;
+	border:transparent;
+}
+
+.ptStyle {
+	width:250px;
+	height:250px;	
+}
+
+#places {
+	list-style: decimal;
+	color: blue;
+}
+
+.content {
+
+	font-family: Comic Sans MS;
+	color: green;
+	font-size: 20px;
+}
+
+#tipstyle {
+	 padding-left: 40px;
+	 font-size: 20px;
+	 color: red;
+	 background-color: white;
+	 background-image : url (BG);
+}
+
+#retrievedFullName {
+
+	font-size: 25px;
+	 color: red;
+}
+
+.panelTitle {
+	font-family: Comic Sans MS;
+	font-size: 30px;
+}
